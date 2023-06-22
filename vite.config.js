@@ -8,5 +8,6 @@ export default defineConfig({
   build: {
     // eslint-disable-next-line no-undef
     outDir: path.join(__dirname, 'public')
-  }
+  },
+  base: ''
 })
